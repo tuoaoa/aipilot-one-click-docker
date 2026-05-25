@@ -1,59 +1,29 @@
-# aipilot-one-click-docker 🐳
+# ⚡ AIPILOT: One-Click Docker Setup (Obsolete / Deprecated)
 
-> **Bilingual:** [Tiếng Việt](#tiếng-việt) | [English](#english)
+> **VIETNAMESE VERSION BELOW / TIẾNG VIỆT BÊN DƯỚI**
 
----
+The dockerized proxy server configuration is officially **deprecated and merged** into the unified, local-first **AIPILOT: Persistent Failure Memory** CLI wrapper utility!
 
-## Tiếng Việt
+Please visit the main active repository to download, install, and test the V9 CLI tool:
 
-**aipilot-one-click-docker** cung cấp giải pháp triển khai tự lưu trữ (self-hosting) nhanh chóng hệ thống đồng bộ hóa và lưu trữ context cục bộ cho AIPILOT.VN.
+👉 **[Download AIPILOT V9 at global-token-saver Repository](https://github.com/tuoaoa/global-token-saver)**
 
-### 💡 Tính năng nổi bật
-* **Kích hoạt trong 1 Click:** Khởi động toàn bộ hạ tầng với Docker Compose.
-* **Cơ sở dữ liệu cục bộ siêu tốc:** Chạy bộ nhớ đệm SQLite và Redis để lưu trữ mã băm MD5 và cấu trúc tệp cục bộ nhằm tối đa hóa tốc độ phản hồi.
-* **Đồng bộ ngầm:** Tự động kết nối, tối ưu hóa và đẩy dữ liệu cấu trúc cần thiết lên Global Pool an toàn.
-
-### 🛠️ Hướng dẫn khởi động nhanh
-
-Yêu cầu máy tính của bạn đã được cài đặt sẵn Docker và Docker Compose.
-
-1. **Khởi chạy container:**
-   ```bash
-   docker-compose up -d
-   ```
-2. **Kiểm tra trạng thái hệ thống:**
-   ```bash
-   docker-compose ps
-   ```
-
-Toàn bộ dịch vụ đồng bộ hóa sẽ chạy ngầm tại cổng mặc định của bạn. Hãy truy cập bảng điều khiển [AIPILOT.VN](https://aipilot.vn) để theo dõi các số liệu nén trực quan.
+We discarded the complex network proxy, docker containers, and backend cluster configuration to ensure 100% data privacy and offline readiness. The V9 tool runs natively as a lightweight offline wrapper directly on your local shell:
+```bash
+aipilot run -- [command]
+```
 
 ---
 
-## English
+# ⚡ AIPILOT: One-Click Docker Setup (Đã Hợp Nhất & Ngưng Hoạt Động)
 
-**aipilot-one-click-docker** provides an instant, self-hosted deployment of the localized caching and syncing stack for the AIPILOT.VN environment.
+Cấu hình máy chủ proxy Docker hóa này hiện đã **chính thức ngưng hoạt động** và được **hợp nhất hoàn toàn** vào bộ công cụ tối giản local-first **AIPILOT: Trí Nhớ Lỗi Kéo Dài**!
 
-### 💡 Key Features
-* **1-Click Spin-Up:** Instantly run the entire pruning infrastructure with standard Docker Compose.
-* **High-Speed Local Storage:** Employs ultra-fast local memory cache substrates to catalog MD5 structural fingerprints.
-* **Background Synchronization:** Seamlessly streams high-level code metadata to the Global Pool for maximum context savings.
+Vui lòng truy cập kho mã nguồn chính để tải, cài đặt và trải nghiệm công cụ CLI V9:
 
-### 🛠️ Quick Start Guide
+👉 **[Tải AIPILOT V9 tại Repository global-token-saver](https://github.com/tuoaoa/global-token-saver)**
 
-Ensure that you have Docker and Docker Compose installed.
-
-1. **Spin up the stack:**
-   ```bash
-   docker-compose up -d
-   ```
-2. **Verify running containers:**
-   ```bash
-   docker-compose ps
-   ```
-
-The synchronization engine will now run silently in the background. Visit [AIPILOT.VN](https://aipilot.vn) to view your token compression metrics in real-time.
-
----
-
-⚡ Engineered for next-gen contextual prunings. Powered by **[AIPILOT.VN](https://aipilot.vn)**.
+Chúng tôi đã loại bỏ máy chủ proxy mạng phức tạp, các container Docker, và hệ thống PM2 cluster để đảm bảo bảo mật mã nguồn 100% và khả năng chạy offline hoàn toàn. Phiên bản CLI V9 mới nhất chạy mượt mà ngay trên terminal của bạn:
+```bash
+aipilot run -- [lệnh]
+```
